@@ -17,7 +17,7 @@ In this challenge you will use and consolidate your knowledge on:
 
 - A typical AJAX flow: send asynchronous requests to a remote server and process the results
 - DOM manipulation: changing the DOM based on the results of the AJAX requests
-- Learn to aggregate and parse data fetched from an api
+- Learn to aggregate and parse data fetched from an API
 
 
 ## Author :black_nib:
