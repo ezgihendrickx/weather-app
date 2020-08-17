@@ -5,10 +5,12 @@ let longitude;
 const FORECAST = document.getElementsByClassName("component__forecast-box")[0]; // <div class="component__forecast-box"></div> getting this from HTML
 
 function getLocation(city) {
+  document.getElementById("spinner").style.display = "block";
   fetch(
     `https://geocode.search.hereapi.com/v1/geocode?q=${city}&apiKey=${hereAPIKey}` //getting the location of the city
   )
     .then((items) => {
+      document.getElementById("spinner").style.display = "none";
       return items.json();
     })
     .then(calcLonLat);
