@@ -99,7 +99,7 @@ main {
 
 .component__forecast-box {
   display: flex;
-  clear: both;
+  /* clear: both; */
 }
 
 .forecast__item {

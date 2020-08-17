@@ -12,7 +12,15 @@ function getLocation(city) {
       return items.json();
     })
     .then(calcLonLat);
+  // console.log(calcLonLat());
 }
+//check it out
+
+// fetch(
+//   " https://api.openweathermap.org/data/2.5/forecast?q=Ghent&units=metric&appid=254457a64f43903cef73c88f6d1f45fa"
+// )
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
 
 function calcLonLat(items) {
   //check it out above link  line 2
