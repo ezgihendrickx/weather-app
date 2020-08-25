@@ -22,7 +22,7 @@ In this challenge you will use and consolidate your knowledge on:
 
 ## Author :black_nib:
 
-Powered by Ezgi
+:star: Powered by Ezgi
 
 ## Links &#x265B;
 Find the direct links to each interface here:
